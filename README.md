@@ -1,5 +1,7 @@
-# UE4-Gameplay-Prototype
-Testing grounds for gameplay mechanics implemented in Unreal Engine 4.16
+# Lucy
+*Current Engine Version*: Unreal Engine 4.16
+
+Repository for the Lucy Game Project
 
 ## Procedure for editing
 *This is for those on the dev team*
@@ -22,3 +24,4 @@ After your changes have been merged., you can continue making changes on the mas
 * Ledge climbing - Jump up a tall ledge to hang on to it. Press W to climb up. Press S to release the player.
 * Object grabbing - Press E to grab a movable object. Press E to release it again.
 * Generator - Go near the button to activate the elevator
+* AI - A character will now follow you (still quite dodgy)
