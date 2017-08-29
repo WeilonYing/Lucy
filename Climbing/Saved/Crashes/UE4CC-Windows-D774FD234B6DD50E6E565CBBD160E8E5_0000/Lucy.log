@@ -1,0 +1,787 @@
+﻿Log file open, 08/28/17 19:21:37
+LogInit:Display: Running engine for game: Lucy
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-580747282) SRandInit(-580747282).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072066
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Software/Unreal Engine 4/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.28-09.21.38:266][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.28-09.21.38:266][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.28-09.21.38:278][  0]LogInit: Computer: JACKE-PC
+[2017.08.28-09.21.38:278][  0]LogInit: User: Insigma
+[2017.08.28-09.21.38:278][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.28-09.21.38:278][  0]LogInit: High frequency timer resolution =3.914199 MHz
+[2017.08.28-09.21.38:279][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.28-09.21.38:279][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.28-09.21.38:279][  0]LogMemory: Process Physical Memory: 274.36 MB used, 274.36 MB peak
+[2017.08.28-09.21.38:279][  0]LogMemory: Process Virtual Memory: 263.99 MB used, 263.99 MB peak
+[2017.08.28-09.21.38:279][  0]LogMemory: Physical Memory: 5509.19 MB used,  10818.52 MB free, 16327.71 MB total
+[2017.08.28-09.21.38:279][  0]LogMemory: Virtual Memory: 622.31 MB used,  10818.52 MB free, 8388608.00 MB total
+[2017.08.28-09.21.38:342][  0]LogInit: Using OS detected language (en-US).
+[2017.08.28-09.21.38:342][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.28-09.21.38:343][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.28-09.21.38:963][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.28-09.21.39:369][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2017.08.28-09.21.39:369][  0]LogD3D11RHI:       6048/0/7907 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.28-09.21.39:369][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.28-09.21.39:373][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.28-09.21.39:373][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.28-09.21.39:373][  0]LogWindows: EnumDisplayDevices:
+[2017.08.28-09.21.39:373][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2017.08.28-09.21.39:374][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.08.28-09.21.39:374][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.08.28-09.21.39:374][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2017.08.28-09.21.39:374][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.28-09.21.39:374][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.28-09.21.39:374][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.28-09.21.39:374][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.28-09.21.39:374][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2017.08.28-09.21.39:374][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.08.28-09.21.39:374][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.08.28-09.21.39:374][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.28-09.21.39:759][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.28-09.21.39:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.28-09.21.39:874][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../Lucy/Lucy/Climbing/Intermediate/Shaders/WorkingDirectory/1508/).
+[2017.08.28-09.21.39:874][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Insigma/AppData/Local/Temp/UnrealShaderWorkingDir/B382DEB14CC7B644316CA292BAEF661C/'.
+[2017.08.28-09.21.39:874][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.28-09.21.40:557][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.28-09.21.40:583][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.28-09.21.40:610][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.28-09.21.40:636][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.28-09.21.40:663][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.28-09.21.40:689][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.28-09.21.40:716][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.28-09.21.40:742][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.28-09.21.40:763][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.28-09.21.40:790][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.28-09.21.40:816][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.28-09.21.40:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.28-09.21.40:867][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.28-09.21.40:893][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.28-09.21.40:918][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.28-09.21.40:970][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.28-09.21.40:970][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.28-09.21.40:988][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.28-09.21.41:044][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.28-09.21.41:060][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.28-09.21.41:085][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.28-09.21.41:111][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.28-09.21.41:137][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.28-09.21.41:162][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.28-09.21.41:162][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.28-09.21.41:382][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.28-09.21.41:451][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/Insigma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.28-09.21.41:451][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Insigma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.28-09.21.41:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Lucy/Lucy/Climbing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.28-09.21.41:452][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.28-09.21.41:452][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Lucy/Lucy/Climbing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.28-09.21.41:452][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.28-09.21.41:465][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.28-09.21.41:476][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Insigma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.28-09.21.41:483][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.28-09.21.41:483][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.28-09.21.41:484][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.28-09.21.41:484][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.28-09.21.41:734][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.28-09.21.41:738][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.28-09.21.41:889][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.28-09.21.41:910][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.28-09.21.41:932][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.28-09.21.41:932][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.28-09.21.41:932][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.28-09.21.42:262][  0]LogNetVersion: Lucy , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3432496989)
+[2017.08.28-09.21.42:307][  0]LogAssetRegistry: FAssetRegistry took 0.0234 seconds to start up
+[2017.08.28-09.21.42:343][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.026383 seconds
+[2017.08.28-09.21.42:347][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.28-09.21.42:347][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.28-09.21.42:347][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.28-09.21.42:373][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.28-09.21.43:736][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.28-09.21.43:758][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.28-09.21.44:058][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.28-09.21.44:275][  0]SourceControl: Info Source control is disabled
+[2017.08.28-09.21.44:276][  0]SourceControl: Info Source control is disabled
+[2017.08.28-09.21.44:298][  0]SourceControl: Info Source control is disabled
+[2017.08.28-09.21.44:320][  0]SourceControl: Info Source control is disabled
+[2017.08.28-09.21.44:627][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.28-09.21.44:916][  0]LogEngine: Initializing Engine...
+[2017.08.28-09.21.44:917][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.28-09.21.45:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.28-09.21.45:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.28-09.21.45:142][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.28-09.21.45:151][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.21.45:156][  0]LogInit: FAudioDevice initialized.
+[2017.08.28-09.21.45:191][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Insigma/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.28-09.21.45:196][  0]LogInit: Texture streaming: Enabled
+[2017.08.28-09.21.45:241][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.28-09.21.45:347][  0]LogInit: Transaction tracking system initialized
+[2017.08.28-09.21.45:494][  0]BlueprintLog: New page: Editor Load
+[2017.08.28-09.21.45:938][  0]LocalizationService: Info Localization service is disabled
+[2017.08.28-09.21.46:276][  0]LogConsoleResponse:Display: 
+[2017.08.28-09.21.46:383][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.28-09.21.46:383][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.28-09.21.46:887][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Unreal Engine 4/Lucy/Lucy/Climbing/Content/' took 0.01s
+[2017.08.28-09.21.46:887][  0]SourceControl: Info Source control is disabled
+[2017.08.28-09.21.46:887][  0]Cmd: MAP LOAD FILE="../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.28-09.21.46:887][  0]LightingResults: New page: Lighting Build
+[2017.08.28-09.21.46:908][  0]MapCheck: New page: Map Check
+[2017.08.28-09.21.46:908][  0]LightingResults: New page: Lighting Build
+[2017.08.28-09.21.47:181][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.28-09.21.47:181][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading ../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap.
+[2017.08.28-09.21.47:181][  0]LoadErrors:Error: Error /Game/SideScrollerBP/Maps/SideScrollerExampleMap : Can't find file for asset. /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2017.08.28-09.21.47:184][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.28-09.21.47:184][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading ../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap.
+[2017.08.28-09.21.47:184][  0]LoadErrors:Error: Error /Game/SideScrollerBP/Maps/SideScrollerExampleMap : Can't find file for asset. /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2017.08.28-09.21.47:187][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.28-09.21.47:187][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2017.08.28-09.21.47:187][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.28-09.21.47:187][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2017.08.28-09.21.47:198][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.28-09.21.47:198][  0]LoadErrors: Info Failed to load /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2017.08.28-09.21.47:198][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2017.08.28-09.21.47:198][  0]LoadErrors: Info Failed to load /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2017.08.28-09.21.47:367][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.28-09.21.47:378][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.28-09.21.47:398][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.28-09.21.47:421][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.17ms to complete.
+[2017.08.28-09.21.47:421][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.534
+[2017.08.28-09.21.47:515][  0]LogCollectionManager: Loaded 0 collections in 0.000826 seconds
+[2017.08.28-09.21.47:568][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Unreal Engine 4/Lucy/Lucy/Climbing/Saved/Collections/' took 0.01s
+[2017.08.28-09.21.47:568][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Unreal Engine 4/Lucy/Lucy/Climbing/Content/Developers/Insigma/Collections/' took 0.01s
+[2017.08.28-09.21.47:568][  0]LogFileCache: Scanning file cache for directory 'D:/Software/Unreal Engine 4/Lucy/Lucy/Climbing/Content/Collections/' took 0.01s
+[2017.08.28-09.21.47:568][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.28-09.21.47:576][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2329 classes and 491 folders.
+[2017.08.28-09.21.47:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.28-09.21.47:627][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.28-09.21.47:648][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.28-09.21.47:673][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.28-09.21.47:677][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.28-09.21.47:678][  0]LogSlate: Took 0.000079 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.28-09.21.47:681][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.28-09.21.47:750][  0]LogRenderer: Reallocating scene render targets to support 1072x576 NumSamples 1 (Frame:1).
+[2017.08.28-09.21.47:858][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.28-09.21.47:900][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.28-09.21.47:900][  0]LogLoad: (Engine Initialization) Total time: 10.56 seconds
+[2017.08.28-09.21.47:900][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.08.28-09.21.47:900][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.28-09.21.47:900][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.28-09.21.47:913][  0]LogOcInput: OculusInput pre-init called
+[2017.08.28-09.21.47:913][  0]LogHMD: Starting GearVRController plugin
+[2017.08.28-09.21.47:937][  0]LogAssetRegistry: Asset discovery search completed in 5.6504 seconds
+[2017.08.28-09.21.47:939][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.28-09.21.47:939][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.08.28-09.21.47:941][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.28-09.21.47:989][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-09.21.47:996][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Software/Unreal Engine 4/Lucy/Lucy/Climbing/Content/' took 0.07s
+[2017.08.28-09.22.48:082][300]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-09.22.48:164][300]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.22.48:185][300]Cmd: MAP LOAD FILE="../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.28-09.22.48:185][300]LightingResults: New page: Lighting Build
+[2017.08.28-09.22.48:185][300]LoadErrors: New page: Loading map: TestLevel.umap
+[2017.08.28-09.22.48:186][300]MapCheck: New page: Map Check
+[2017.08.28-09.22.48:186][300]LightingResults: New page: Lighting Build
+[2017.08.28-09.22.48:199][300]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.28-09.22.48:222][300]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.28-09.22.48:244][300]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 22.018ms to complete.
+[2017.08.28-09.22.48:244][300]LogFileHelpers: Loading map 'TestLevel' took 0.059
+[2017.08.28-09.24.10:488][ 98]Cmd: ACTOR SELECT ALL
+[2017.08.28-09.24.15:032][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.24.15:717][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge24)
+[2017.08.28-09.24.16:473][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2017.08.28-09.24.17:769][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge24)
+[2017.08.28-09.24.35:188][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge27)
+[2017.08.28-09.25.00:435][800]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.25.05:643][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
+[2017.08.28-09.25.22:472][317]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.28-09.25.37:143][ 12]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.28-09.25.51:091][617]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.28-09.25.51:460][660]Cmd: TRANSACTION UNDO
+[2017.08.28-09.25.51:460][660]LogEditorTransaction: Undo Move Actors
+[2017.08.28-09.25.51:465][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.OldElevator1.StaticMeshComponent0) Component already registered.
+[2017.08.28-09.25.51:466][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.Floor_12.StaticMeshComponent0) Component already registered.
+[2017.08.28-09.25.51:467][660]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.Cube_2.StaticMeshComponent0) Component already registered.
+[2017.08.28-09.25.51:478][660]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-09.25.58:515][460]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.28-09.25.59:530][580]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.08.28-09.26.03:677][ 54]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2017.08.28-09.26.11:112][934]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.26.35:804][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2017.08.28-09.26.37:173][238]Cmd: DELETE
+[2017.08.28-09.26.37:173][238]Cmd: ACTOR DELETE
+[2017.08.28-09.26.37:174][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.26.37:174][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.26.37:174][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.26.37:174][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.26.37:174][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.26.37:181][238]LogEditorActor: Deleted 5 Actors (0.008 secs)
+[2017.08.28-09.26.41:057][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Elevator_Top)
+[2017.08.28-09.27.04:522][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.27.05:262][511]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge53)
+[2017.08.28-09.27.29:240][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge24)
+[2017.08.28-09.27.29:777][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.27.32:743][763]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge53)
+[2017.08.28-09.27.39:363][538]LogActorFactory: Actor Factory created 1M_Cube
+[2017.08.28-09.27.40:096][625]LogActorFactory: Actor Factory created 1M_Cube
+[2017.08.28-09.27.41:196][753]Cmd: TRANSACTION UNDO
+[2017.08.28-09.27.41:196][753]LogEditorTransaction: Undo Create Actors
+[2017.08.28-09.27.42:336][868]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge53)
+[2017.08.28-09.27.56:943][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge72)
+[2017.08.28-09.27.57:518][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.27.57:860][689]LogSlate: Took 0.015218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.28-09.28.36:307][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.28.50:619][135]LogStaticMesh: Building static mesh StaticMesh...
+[2017.08.28-09.28.50:624][135]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Actors/StaticMesh.StaticMesh
+[2017.08.28-09.28.52:917][368]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.28.54:303][532]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.28.56:352][773]Cmd: TRANSACTION UNDO
+[2017.08.28-09.28.56:352][773]LogEditorTransaction: Undo Move Actors
+[2017.08.28-09.28.56:886][817]Cmd: TRANSACTION UNDO
+[2017.08.28-09.28.56:886][817]LogEditorTransaction: Undo Create Actors
+[2017.08.28-09.28.59:191][ 86]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.29.00:321][221]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.29.00:569][247]Cmd: TRANSACTION UNDO
+[2017.08.28-09.29.00:569][247]LogEditorTransaction: Undo Create Actors
+[2017.08.28-09.29.10:656][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.29.12:216][426]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge53)
+[2017.08.28-09.29.13:924][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.29.35:786][830]LogStaticMesh: Building static mesh StaticMesh...
+[2017.08.28-09.29.35:790][830]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Actors/StaticMesh.StaticMesh
+[2017.08.28-09.29.38:239][ 91]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.29.39:119][195]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.29.50:111][487]Cmd: DELETE
+[2017.08.28-09.29.50:111][487]Cmd: ACTOR DELETE
+[2017.08.28-09.29.50:112][487]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.29.50:118][487]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.08.28-09.29.51:254][620]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.29.51:548][655]LogActorFactory: Actor Factory created StaticMesh
+[2017.08.28-09.29.52:397][753]Cmd: DELETE
+[2017.08.28-09.29.52:397][753]Cmd: ACTOR DELETE
+[2017.08.28-09.29.52:397][753]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.29.52:405][753]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.08.28-09.29.56:936][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge53)
+[2017.08.28-09.29.57:377][211]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge53)
+[2017.08.28-09.30.16:832][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge24)
+[2017.08.28-09.30.43:146][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge73)
+[2017.08.28-09.31.07:123][372]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge74)
+[2017.08.28-09.31.44:101][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.28-09.32.23:519][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2017.08.28-09.32.38:180][106]LogEditorViewport: Clicking on Actor (LMB): ElevatorSwitch1_Blueprint_C (ElevatorSwitch1_Blueprint)
+[2017.08.28-09.32.43:092][677]Cmd: TRANSACTION UNDO
+[2017.08.28-09.32.43:092][677]LogEditorTransaction: Undo Move Actors
+[2017.08.28-09.32.46:106][987]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.33.29:654][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge72)
+[2017.08.28-09.33.48:083][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.28-09.34.11:239][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge50)
+[2017.08.28-09.34.13:933][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge24)
+[2017.08.28-09.34.15:051][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge50)
+[2017.08.28-09.34.19:077][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge52)
+[2017.08.28-09.34.19:653][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge51)
+[2017.08.28-09.34.27:785][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge27)
+[2017.08.28-09.34.29:351][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge72)
+[2017.08.28-09.34.30:526][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge36)
+[2017.08.28-09.35.30:923][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.35.55:094][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge76)
+[2017.08.28-09.35.57:912][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.35.58:290][410]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge76)
+[2017.08.28-09.35.58:630][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2017.08.28-09.36.15:970][494]Cmd: DELETE
+[2017.08.28-09.36.15:970][494]Cmd: ACTOR DELETE
+[2017.08.28-09.36.15:971][494]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.28-09.36.15:984][494]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.08.28-09.36.17:945][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.08.28-09.36.21:225][ 99]Cmd: TRANSACTION UNDO
+[2017.08.28-09.36.21:225][ 99]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.28-09.36.22:760][261]Cmd: TRANSACTION UNDO
+[2017.08.28-09.36.22:760][261]LogEditorTransaction: Undo Delete Actors
+[2017.08.28-09.36.24:873][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.08.28-09.37.25:424][591]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.37.31:722][323]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.37.31:744][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.37.31:744][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.37.31:745][323]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:37:31 AM)
+[2017.08.28-09.37.31:745][323]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.37.31:761][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016149s)
+[2017.08.28-09.37.31:761][323]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.37.31:762][323]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2017.08.28-09.37.31:762][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.017090s)
+[2017.08.28-09.37.31:803][323]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.37.31:825][323]LogInit: FAudioDevice initialized.
+[2017.08.28-09.37.31:877][323]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.37.31:893][323]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.37.31
+[2017.08.28-09.37.31:894][323]LogWorld: Bringing up level for play took: 0.011875
+[2017.08.28-09.37.31:936][323]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.28-09.37.31:937][323]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.001
+[2017.08.28-09.37.31:937][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.37.41:326][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.37.41:381][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.37.54:081][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.28-09.38.00:118][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge75)
+[2017.08.28-09.38.00:458][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.28-09.38.16:055][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2017.08.28-09.38.16:879][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.28-09.38.22:994][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2017.08.28-09.38.40:775][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge75)
+[2017.08.28-09.38.41:279][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.38.55:647][952]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.38.55:657][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.38.55:657][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.38.55:657][952]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:38:55 AM)
+[2017.08.28-09.38.55:657][952]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.38.55:673][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016050s)
+[2017.08.28-09.38.55:674][952]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.38.55:674][952]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.08.28-09.38.55:674][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.016957s)
+[2017.08.28-09.38.55:686][952]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.38.55:692][952]LogInit: FAudioDevice initialized.
+[2017.08.28-09.38.55:726][952]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.38.55:734][952]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.38.55
+[2017.08.28-09.38.55:735][952]LogWorld: Bringing up level for play took: 0.006608
+[2017.08.28-09.38.55:736][952]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.205
+[2017.08.28-09.38.55:737][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.38.57:623][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.38.57:664][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.39.02:758][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.39.40:784][204]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.39.42:406][384]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.39.42:416][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.39.42:416][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.39.42:417][384]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:39:42 AM)
+[2017.08.28-09.39.42:417][384]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.39.42:433][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016294s)
+[2017.08.28-09.39.42:433][384]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.39.42:434][384]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.08.28-09.39.42:434][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.017169s)
+[2017.08.28-09.39.42:445][384]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.39.42:450][384]LogInit: FAudioDevice initialized.
+[2017.08.28-09.39.42:478][384]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.39.42:482][384]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.39.42
+[2017.08.28-09.39.42:482][384]LogWorld: Bringing up level for play took: 0.003271
+[2017.08.28-09.39.42:483][384]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.54
+[2017.08.28-09.39.42:483][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.39.47:782][ 14]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.39.47:813][ 14]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.39.52:129][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.39.55:926][941]Cmd: TRANSACTION UNDO
+[2017.08.28-09.39.55:926][941]LogEditorTransaction: Undo Move Actors
+[2017.08.28-09.40.19:707][692]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.40.19:718][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.40.19:718][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.40.19:718][692]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:40:19 AM)
+[2017.08.28-09.40.19:718][692]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.40.19:734][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016078s)
+[2017.08.28-09.40.19:734][692]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.40.19:735][692]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.08.28-09.40.19:735][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.016937s)
+[2017.08.28-09.40.19:745][692]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.40.19:750][692]LogInit: FAudioDevice initialized.
+[2017.08.28-09.40.19:775][692]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.40.19:779][692]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.40.19
+[2017.08.28-09.40.19:779][692]LogWorld: Bringing up level for play took: 0.003395
+[2017.08.28-09.40.19:797][692]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.147
+[2017.08.28-09.40.19:798][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.40.26:385][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.40.26:425][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.40.36:370][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.40.49:217][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge75)
+[2017.08.28-09.40.50:034][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.28-09.40.50:642][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.40.53:346][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge80)
+[2017.08.28-09.41.08:509][354]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.41.08:519][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.41.08:519][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.41.08:519][354]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:41:08 AM)
+[2017.08.28-09.41.08:519][354]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.41.08:535][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015971s)
+[2017.08.28-09.41.08:536][354]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.41.08:536][354]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.08.28-09.41.08:536][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.016847s)
+[2017.08.28-09.41.08:547][354]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.41.08:551][354]LogInit: FAudioDevice initialized.
+[2017.08.28-09.41.08:579][354]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.41.08:583][354]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.41.08
+[2017.08.28-09.41.08:584][354]LogWorld: Bringing up level for play took: 0.003466
+[2017.08.28-09.41.08:584][354]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.638
+[2017.08.28-09.41.08:585][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.41.31:455][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.41.31:496][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.41.49:166][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.28-09.41.50:069][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.42.00:298][502]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.42.02:811][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.42.06:055][159]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.42.13:916][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge79)
+[2017.08.28-09.42.38:958][926]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.42.38:969][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.42.38:969][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.42.38:969][926]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:42:38 AM)
+[2017.08.28-09.42.38:969][926]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.42.38:985][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015933s)
+[2017.08.28-09.42.38:985][926]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.42.38:985][926]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.08.28-09.42.38:986][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.016823s)
+[2017.08.28-09.42.38:997][926]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.42.39:004][926]LogInit: FAudioDevice initialized.
+[2017.08.28-09.42.39:038][926]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.42.39:052][926]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.42.39
+[2017.08.28-09.42.39:053][926]LogWorld: Bringing up level for play took: 0.011725
+[2017.08.28-09.42.39:055][926]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.894
+[2017.08.28-09.42.39:056][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.43.01:422][602]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.43.01:459][602]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.43.04:498][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge79)
+[2017.08.28-09.43.10:191][639]Cmd: TRANSACTION UNDO
+[2017.08.28-09.43.10:191][639]LogEditorTransaction: Undo Move Actors
+[2017.08.28-09.43.13:784][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.43.25:093][352]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.43.25:103][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.43.25:103][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.43.25:103][352]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:43:25 AM)
+[2017.08.28-09.43.25:103][352]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.43.25:117][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013773s)
+[2017.08.28-09.43.25:117][352]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.43.25:118][352]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.08.28-09.43.25:118][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014676s)
+[2017.08.28-09.43.25:128][352]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.43.25:133][352]LogInit: FAudioDevice initialized.
+[2017.08.28-09.43.25:158][352]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.43.25:162][352]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.43.25
+[2017.08.28-09.43.25:162][352]LogWorld: Bringing up level for play took: 0.003294
+[2017.08.28-09.43.25:163][352]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.788
+[2017.08.28-09.43.25:163][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.06:401][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.06:440][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.12:685][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge76)
+[2017.08.28-09.44.16:575][477]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.44.16:585][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.16:585][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.44.16:586][477]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:44:16 AM)
+[2017.08.28-09.44.16:586][477]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.44.16:599][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013256s)
+[2017.08.28-09.44.16:599][477]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.44.16:600][477]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.08.28-09.44.16:600][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014189s)
+[2017.08.28-09.44.16:610][477]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.44.16:614][477]LogInit: FAudioDevice initialized.
+[2017.08.28-09.44.16:644][477]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.44.16:648][477]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.44.16
+[2017.08.28-09.44.16:648][477]LogWorld: Bringing up level for play took: 0.003382
+[2017.08.28-09.44.16:649][477]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.696
+[2017.08.28-09.44.16:649][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.52:050][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.52:092][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.44.58:181][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.45.16:703][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge72)
+[2017.08.28-09.45.19:041][821]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.45.19:051][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.45.19:051][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.45.19:052][821]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:45:19 AM)
+[2017.08.28-09.45.19:052][821]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.45.19:065][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013371s)
+[2017.08.28-09.45.19:066][821]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.45.19:066][821]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.08.28-09.45.19:066][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014303s)
+[2017.08.28-09.45.19:077][821]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.45.19:081][821]LogInit: FAudioDevice initialized.
+[2017.08.28-09.45.19:112][821]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.45.19:121][821]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.45.19
+[2017.08.28-09.45.19:122][821]LogWorld: Bringing up level for play took: 0.007560
+[2017.08.28-09.45.19:123][821]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.832
+[2017.08.28-09.45.19:123][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.45.32:495][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.45.32:536][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.45.34:920][694]Cmd: TRANSACTION UNDO
+[2017.08.28-09.45.34:920][694]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.28-09.45.38:629][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.45.38:640][ 85]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.45.38:640][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.45.38:640][ 85]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:45:38 AM)
+[2017.08.28-09.45.38:640][ 85]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.45.38:654][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013693s)
+[2017.08.28-09.45.38:654][ 85]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.45.38:654][ 85]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2017.08.28-09.45.38:655][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.014620s)
+[2017.08.28-09.45.38:666][ 85]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.45.38:671][ 85]LogInit: FAudioDevice initialized.
+[2017.08.28-09.45.38:699][ 85]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.45.38:706][ 85]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.45.38
+[2017.08.28-09.45.38:707][ 85]LogWorld: Bringing up level for play took: 0.007513
+[2017.08.28-09.45.38:709][ 85]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.753
+[2017.08.28-09.45.38:709][ 85]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.46.07:143][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.46.07:184][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.46.10:665][896]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.46.37:437][181]LogSavePackage: Save=309.68ms
+[2017.08.28-09.46.37:437][181]LogSavePackage: Moving '../../../../../Lucy/Lucy/Climbing/Saved/TestLevel_Auto107B8E7E64834675E4ED96195EF9B642B.tmp' to '../../../../../Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/TestLevel_Auto1.umap'
+[2017.08.28-09.46.37:439][181]LogSavePackage:Display: Finished SavePackage ../../../../../Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/TestLevel_Auto1.umap
+[2017.08.28-09.46.37:440][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/TestLevel' took 0.864
+[2017.08.28-09.46.37:440][181]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.864
+[2017.08.28-09.46.45:684][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/TestLevel" FILE="../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.28-09.46.45:929][489]LogSavePackage: Save=236.66ms
+[2017.08.28-09.46.45:929][489]LogSavePackage: Moving '../../../../../Lucy/Lucy/Climbing/Saved/TestLevel035391B24B41FF115355498B20B0D38C.tmp' to '../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/TestLevel.umap'
+[2017.08.28-09.46.45:931][489]LogSavePackage:Display: Finished SavePackage ../../../../../Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/TestLevel.umap
+[2017.08.28-09.46.48:293][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.46.54:473][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge72)
+[2017.08.28-09.46.55:387][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.08.28-09.47.01:566][259]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.08.28-09.47.09:869][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.47.12:773][565]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.47.19:790][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge74)
+[2017.08.28-09.47.22:857][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge72)
+[2017.08.28-09.47.23:766][751]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.47.32:736][754]LogRenderer: Reallocating scene render targets to support 1072x584 NumSamples 1 (Frame:138150).
+[2017.08.28-09.47.32:770][754]LogRenderer: Reallocating scene render targets to support 1072x600 NumSamples 1 (Frame:138153).
+[2017.08.28-09.47.32:837][755]LogRenderer: Reallocating scene render targets to support 1072x636 NumSamples 1 (Frame:138157).
+[2017.08.28-09.47.32:902][756]LogRenderer: Reallocating scene render targets to support 1072x664 NumSamples 1 (Frame:138161).
+[2017.08.28-09.47.32:970][757]LogRenderer: Reallocating scene render targets to support 1072x696 NumSamples 1 (Frame:138165).
+[2017.08.28-09.47.33:037][758]LogRenderer: Reallocating scene render targets to support 1072x712 NumSamples 1 (Frame:138169).
+[2017.08.28-09.47.33:104][759]LogRenderer: Reallocating scene render targets to support 1072x740 NumSamples 1 (Frame:138173).
+[2017.08.28-09.47.33:172][760]LogRenderer: Reallocating scene render targets to support 1072x792 NumSamples 1 (Frame:138177).
+[2017.08.28-09.47.33:248][761]LogRenderer: Reallocating scene render targets to support 1072x812 NumSamples 1 (Frame:138181).
+[2017.08.28-09.47.33:338][762]LogRenderer: Reallocating scene render targets to support 1072x824 NumSamples 1 (Frame:138185).
+[2017.08.28-09.47.33:415][763]LogRenderer: Reallocating scene render targets to support 1072x844 NumSamples 1 (Frame:138189).
+[2017.08.28-09.47.36:973][114]LogRenderer: Reallocating scene render targets to support 1076x844 NumSamples 1 (Frame:138911).
+[2017.08.28-09.47.37:007][115]LogRenderer: Reallocating scene render targets to support 1080x844 NumSamples 1 (Frame:138914).
+[2017.08.28-09.47.37:107][117]LogRenderer: Reallocating scene render targets to support 1084x844 NumSamples 1 (Frame:138921).
+[2017.08.28-09.47.37:151][117]LogRenderer: Reallocating scene render targets to support 1088x844 NumSamples 1 (Frame:138924).
+[2017.08.28-09.47.37:224][118]LogRenderer: Reallocating scene render targets to support 1108x844 NumSamples 1 (Frame:138928).
+[2017.08.28-09.47.37:302][119]LogRenderer: Reallocating scene render targets to support 1116x844 NumSamples 1 (Frame:138932).
+[2017.08.28-09.47.37:380][120]LogRenderer: Reallocating scene render targets to support 1120x844 NumSamples 1 (Frame:138936).
+[2017.08.28-09.47.37:457][121]LogRenderer: Reallocating scene render targets to support 1132x844 NumSamples 1 (Frame:138940).
+[2017.08.28-09.47.37:556][122]LogRenderer: Reallocating scene render targets to support 1136x844 NumSamples 1 (Frame:138944).
+[2017.08.28-09.47.40:406][410]LogRenderer: Reallocating scene render targets to support 1140x844 NumSamples 1 (Frame:139533).
+[2017.08.28-09.47.40:441][410]LogRenderer: Reallocating scene render targets to support 1148x844 NumSamples 1 (Frame:139536).
+[2017.08.28-09.47.40:516][411]LogRenderer: Reallocating scene render targets to support 1160x844 NumSamples 1 (Frame:139540).
+[2017.08.28-09.47.40:590][412]LogRenderer: Reallocating scene render targets to support 1168x844 NumSamples 1 (Frame:139544).
+[2017.08.28-09.47.40:664][413]LogRenderer: Reallocating scene render targets to support 1180x844 NumSamples 1 (Frame:139548).
+[2017.08.28-09.47.40:737][414]LogRenderer: Reallocating scene render targets to support 1184x844 NumSamples 1 (Frame:139552).
+[2017.08.28-09.47.40:883][416]LogRenderer: Reallocating scene render targets to support 1188x844 NumSamples 1 (Frame:139560).
+[2017.08.28-09.47.46:598][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.47.48:015][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.47.49:004][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.47.49:601][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.08.28-09.47.50:666][546]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.47.58:382][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.28-09.48.30:195][160]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.48.39:142][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge75)
+[2017.08.28-09.49.41:615][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge81)
+[2017.08.28-09.50.23:283][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge82)
+[2017.08.28-09.50.28:620][  0]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.50.47:670][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge82)
+[2017.08.28-09.51.16:758][599]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.51.16:770][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.16:770][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.51.16:770][599]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:51:16 AM)
+[2017.08.28-09.51.16:770][599]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.51.16:796][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026554s)
+[2017.08.28-09.51.16:797][599]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.51.16:797][599]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.08.28-09.51.16:797][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.027441s)
+[2017.08.28-09.51.16:810][599]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.51.16:815][599]LogInit: FAudioDevice initialized.
+[2017.08.28-09.51.16:840][599]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.51.16:844][599]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.51.16
+[2017.08.28-09.51.16:844][599]LogWorld: Bringing up level for play took: 0.003370
+[2017.08.28-09.51.16:845][599]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.878
+[2017.08.28-09.51.16:845][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.21:534][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.21:577][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.24:134][456]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.51.24:145][456]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.24:145][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.51.24:145][456]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:51:24 AM)
+[2017.08.28-09.51.24:145][456]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.51.24:162][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017357s)
+[2017.08.28-09.51.24:163][456]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.51.24:163][456]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.08.28-09.51.24:163][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.018251s)
+[2017.08.28-09.51.24:174][456]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.51.24:179][456]LogInit: FAudioDevice initialized.
+[2017.08.28-09.51.24:204][456]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.51.24:208][456]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.51.24
+[2017.08.28-09.51.24:208][456]LogWorld: Bringing up level for play took: 0.003480
+[2017.08.28-09.51.24:209][456]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.241
+[2017.08.28-09.51.24:209][456]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.27:406][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.27:447][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.29:245][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge83)
+[2017.08.28-09.51.58:398][503]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.51.58:409][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.51.58:409][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.51.58:409][503]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:51:58 AM)
+[2017.08.28-09.51.58:409][503]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.51.58:428][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018732s)
+[2017.08.28-09.51.58:428][503]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.51.58:428][503]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2017.08.28-09.51.58:429][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.019703s)
+[2017.08.28-09.51.58:439][503]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.51.58:444][503]LogInit: FAudioDevice initialized.
+[2017.08.28-09.51.58:478][503]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.51.58:489][503]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.51.58
+[2017.08.28-09.51.58:490][503]LogWorld: Bringing up level for play took: 0.009424
+[2017.08.28-09.51.58:491][503]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.523
+[2017.08.28-09.51.58:492][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.09:041][764]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.09:081][764]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.11:380][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge83)
+[2017.08.28-09.52.17:174][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.52.17:185][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.17:185][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.52.17:185][717]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:52:17 AM)
+[2017.08.28-09.52.17:185][717]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.52.17:202][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017649s)
+[2017.08.28-09.52.17:203][717]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.52.17:203][717]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.08.28-09.52.17:203][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.018536s)
+[2017.08.28-09.52.17:214][717]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.52.17:218][717]LogInit: FAudioDevice initialized.
+[2017.08.28-09.52.17:249][717]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.52.17:254][717]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.52.17
+[2017.08.28-09.52.17:254][717]LogWorld: Bringing up level for play took: 0.003604
+[2017.08.28-09.52.17:255][717]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel -0.715
+[2017.08.28-09.52.17:255][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.22:296][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.22:334][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.35:035][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge83)
+[2017.08.28-09.52.35:447][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge24)
+[2017.08.28-09.52.38:404][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2017.08.28-09.52.54:925][ 95]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.52.54:935][ 95]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.52.54:935][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.52.54:935][ 95]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:52:54 AM)
+[2017.08.28-09.52.54:935][ 95]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.52.54:952][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017373s)
+[2017.08.28-09.52.54:953][ 95]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.52.54:953][ 95]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.08.28-09.52.54:953][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.018306s)
+[2017.08.28-09.52.54:964][ 95]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.52.54:968][ 95]LogInit: FAudioDevice initialized.
+[2017.08.28-09.52.54:996][ 95]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.52.55:005][ 95]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.52.55
+[2017.08.28-09.52.55:006][ 95]LogWorld: Bringing up level for play took: 0.008393
+[2017.08.28-09.52.55:008][ 95]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 1.037
+[2017.08.28-09.52.55:008][ 95]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.53.20:316][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.53.20:354][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.53.24:508][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge82)
+[2017.08.28-09.53.25:403][707]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2017.08.28-09.53.37:025][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2017.08.28-09.54.04:642][242]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.28-09.54.04:655][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.54.04:655][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-09.54.04:655][242]PIE: New page: PIE session: TestLevel (Aug 29, 2017, 5:54:04 AM)
+[2017.08.28-09.54.04:655][242]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel
+[2017.08.28-09.54.04:673][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017796s)
+[2017.08.28-09.54.04:674][242]LogAIModule: Creating AISystem for world TestLevel
+[2017.08.28-09.54.04:674][242]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2017.08.28-09.54.04:674][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/TestLevel.TestLevel to /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel (0.018696s)
+[2017.08.28-09.54.04:684][242]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.28-09.54.04:688][242]LogInit: FAudioDevice initialized.
+[2017.08.28-09.54.04:717][242]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.28-09.54.04:727][242]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.08.28-19.54.04
+[2017.08.28-09.54.04:728][242]LogWorld: Bringing up level for play took: 0.008413
+[2017.08.28-09.54.04:729][242]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_TestLevel 0.756
+[2017.08.28-09.54.04:730][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/SideScrollerBP/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.08.28-09.54.16:757][681]LogOutputDevice:Warning: 
+
+Script Stack:
+ElevatorSwitch1_Blueprint_C.ExecuteUbergraph_ElevatorSwitch1_Blueprint
+ElevatorSwitch1_Blueprint_C.BndEvt__CollisionMesh_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
+
+[2017.08.28-09.54.16:821][681]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.064 s
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: 
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\Obj.cpp] [Line: 787]
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: Unsupported context object of class LevelSequence (SuperClass(es) - MovieSceneSequence, MovieSceneSignedObject, Object). You must add a way to retrieve a UWorld context for this class.
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: Stack: 
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DCD5E2B6
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DCB0B8C2
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DCB21E86
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC5F3E5D
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA123C66
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-LevelSequence.dll!0x00000000D58BCC00
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-LevelSequence.dll!0x00000000D58C7A07
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC478734
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC636DD4
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC64BDA1
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC674884
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC64DFD2
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC6377DE
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC64DFD2
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC478734
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DC64D366
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D90F3F27
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D90752A9
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D95AB798
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D9598C06
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D95D883C
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D95A8A7C
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D958EAE9
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D94F547A
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D951B184
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D94A4884
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D94D8695
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA0A379B
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA0AA17B
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DC9D4D8C
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DC9D51AD
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DC9EFA66
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA0C6662
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA0CBBC2
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D99EE504
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D99F65CF
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D64C3973
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D6CE8D86
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor.exe!0x000000003F4CE2B2
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor.exe!0x000000003F4BF0B0
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor.exe!0x000000003F4BF12A
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor.exe!0x000000003F4D0CF9
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: UE4Editor.exe!0x000000003F4D25F7
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: kernel32.dll!0x00000000778459CD
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: ntdll.dll!0x0000000077A7A2E1
+[2017.08.28-09.54.16:821][681]LogOutputDevice:Error: 
+[2017.08.28-09.54.16:827][681]LogStats:                SubmitErrorReport -  0.000 s
