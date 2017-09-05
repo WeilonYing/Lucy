@@ -1,0 +1,1299 @@
+﻿Log file open, 08/29/17 18:48:11
+LogInit:Display: Running engine for game: Lucy
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(491599334) SRandInit(491599334).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.120494
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.29-08.48.12:441][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-08.48.12:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.29-08.48.12:481][  0]LogInit: Computer: JEJMACHINE
+[2017.08.29-08.48.12:481][  0]LogInit: User: Jej
+[2017.08.29-08.48.12:481][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.29-08.48.12:481][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2017.08.29-08.48.12:482][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.29-08.48.12:482][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.29-08.48.12:482][  0]LogMemory: Process Physical Memory: 271.88 MB used, 271.88 MB peak
+[2017.08.29-08.48.12:482][  0]LogMemory: Process Virtual Memory: 258.61 MB used, 258.61 MB peak
+[2017.08.29-08.48.12:482][  0]LogMemory: Physical Memory: 9163.60 MB used,  7111.93 MB free, 16275.53 MB total
+[2017.08.29-08.48.12:482][  0]LogMemory: Virtual Memory: 634.17 MB used,  7111.93 MB free, 134217728.00 MB total
+[2017.08.29-08.48.12:617][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.29-08.48.12:617][  0]LogInit: Using OS detected locale (en-AU).
+[2017.08.29-08.48.12:620][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.29-08.48.13:998][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.29-08.48.14:009][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.29-08.48.14:009][  0]LogD3D11RHI:       128/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.29-08.48.14:010][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.29-08.48.14:010][  0]LogD3D11RHI:       0/0/8137 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.29-08.48.14:010][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.29-08.48.14:020][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.29-08.48.14:020][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.29-08.48.14:020][  0]LogWindows: EnumDisplayDevices:
+[2017.08.29-08.48.14:020][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.29-08.48.14:021][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.29-08.48.14:021][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.29-08.48.14:021][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.29-08.48.14:021][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.29-08.48.14:021][  0]LogD3D11RHI:   Driver Version: 21.20.16.4541 (internal:21.20.16.4541, unified:21.20.16.4541)
+[2017.08.29-08.48.14:021][  0]LogD3D11RHI:      Driver Date: 10-20-2016
+[2017.08.29-08.48.14:021][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.29-08.48.14:027][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.29-08.48.14:038][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.29-08.48.14:039][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Intermediate/Shaders/WorkingDirectory/6040/).
+[2017.08.29-08.48.14:039][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jej/AppData/Local/Temp/UnrealShaderWorkingDir/524E9C354CF1B38B085C97BFA08315CC/'.
+[2017.08.29-08.48.14:039][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.29-08.48.15:644][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.29-08.48.15:716][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.29-08.48.15:799][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.29-08.48.15:869][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.29-08.48.15:941][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.29-08.48.16:021][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.29-08.48.16:094][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.29-08.48.16:183][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.29-08.48.16:275][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.29-08.48.16:372][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.29-08.48.16:462][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.29-08.48.16:530][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.29-08.48.16:613][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.29-08.48.16:676][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.29-08.48.16:748][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.29-08.48.16:927][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.29-08.48.16:927][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.29-08.48.17:020][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.29-08.48.17:188][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.29-08.48.17:245][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.29-08.48.17:338][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.29-08.48.17:439][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.29-08.48.17:528][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.29-08.48.17:636][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.29-08.48.17:636][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.29-08.48.18:559][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.29-08.48.18:695][  0]LogDerivedDataCache: Loaded boot cache 0.14s 90MB C:/Users/Jej/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.29-08.48.18:695][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jej/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.29-08.48.18:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.29-08.48.18:696][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.29-08.48.18:696][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.29-08.48.18:696][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.29-08.48.18:718][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.29-08.48.18:731][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jej/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.29-08.48.18:745][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.29-08.48.18:745][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.29-08.48.18:746][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-08.48.18:746][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-08.48.19:363][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-08.48.19:503][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.29-08.48.19:726][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.29-08.48.19:805][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.29-08.48.19:870][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.29-08.48.19:870][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.29-08.48.19:870][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.29-08.48.20:777][  0]LogNetVersion: Lucy , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3432496989)
+[2017.08.29-08.48.20:861][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2017.08.29-08.48.21:044][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.144810 seconds
+[2017.08.29-08.48.21:062][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.29-08.48.21:062][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.29-08.48.21:062][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.29-08.48.21:218][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.29-08.48.25:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.29-08.48.25:296][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.29-08.48.26:085][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.29-08.48.26:696][  0]SourceControl: Info Source control is disabled
+[2017.08.29-08.48.26:768][  0]SourceControl: Info Source control is disabled
+[2017.08.29-08.48.26:841][  0]SourceControl: Info Source control is disabled
+[2017.08.29-08.48.26:911][  0]SourceControl: Info Source control is disabled
+[2017.08.29-08.48.28:206][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.29-08.48.29:183][  0]LogEngine: Initializing Engine...
+[2017.08.29-08.48.29:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.29-08.48.29:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.29-08.48.29:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.29-08.48.29:707][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.29-08.48.29:725][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-08.48.29:779][  0]LogInit: FAudioDevice initialized.
+[2017.08.29-08.48.29:861][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Jej/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.29-08.48.29:880][  0]LogInit: Texture streaming: Enabled
+[2017.08.29-08.48.30:042][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.29-08.48.30:380][  0]LogInit: Transaction tracking system initialized
+[2017.08.29-08.48.30:903][  0]BlueprintLog: New page: Editor Load
+[2017.08.29-08.48.32:580][  0]LocalizationService: Info Localization service is disabled
+[2017.08.29-08.48.33:720][  0]LogConsoleResponse:Display: 
+[2017.08.29-08.48.33:984][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.29-08.48.33:984][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.29-08.48.34:918][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/' took 0.02s
+[2017.08.29-08.48.35:791][  0]SourceControl: Info Source control is disabled
+[2017.08.29-08.48.35:792][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-08.48.35:792][  0]LightingResults: New page: Lighting Build
+[2017.08.29-08.48.35:863][  0]MapCheck: New page: Map Check
+[2017.08.29-08.48.35:863][  0]LightingResults: New page: Lighting Build
+[2017.08.29-08.48.36:461][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.29-08.48.36:462][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap.
+[2017.08.29-08.48.36:462][  0]LoadErrors:Error: Error /Game/SideScrollerBP/Maps/SideScrollerExampleMap : Can't find file for asset. /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2017.08.29-08.48.36:469][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.29-08.48.36:469][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap.
+[2017.08.29-08.48.36:469][  0]LoadErrors:Error: Error /Game/SideScrollerBP/Maps/SideScrollerExampleMap : Can't find file for asset. /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2017.08.29-08.48.36:473][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.29-08.48.36:473][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2017.08.29-08.48.36:473][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.29-08.48.36:473][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2017.08.29-08.48.36:512][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData'
+[2017.08.29-08.48.36:512][  0]LoadErrors: Info Failed to load /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2017.08.29-08.48.36:512][  0]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData' while loading NULL.
+[2017.08.29-08.48.36:512][  0]LoadErrors: Info Failed to load /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.SideScrollerExampleMap_BuiltData Referenced by PersistentLevel
+[2017.08.29-08.48.36:809][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2017.08.29-08.48.36:829][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-08.48.36:900][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-08.48.36:976][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.999ms to complete.
+[2017.08.29-08.48.36:976][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.185
+[2017.08.29-08.48.37:176][  0]LogCollectionManager: Loaded 0 collections in 0.001623 seconds
+[2017.08.29-08.48.37:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Collections/' took 0.01s
+[2017.08.29-08.48.37:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/Developers/Jej/Collections/' took 0.01s
+[2017.08.29-08.48.37:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/Collections/' took 0.01s
+[2017.08.29-08.48.37:290][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.29-08.48.37:306][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2329 classes and 491 folders.
+[2017.08.29-08.48.37:416][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.29-08.48.37:464][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.29-08.48.37:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.29-08.48.37:582][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.29-08.48.37:596][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.29-08.48.37:787][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.08.29-08.48.37:788][  0]LogLoad: (Engine Initialization) Total time: 28.69 seconds
+[2017.08.29-08.48.37:788][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.39 seconds
+[2017.08.29-08.48.37:788][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.29-08.48.38:129][  0]LogOcInput: OculusInput pre-init called
+[2017.08.29-08.48.38:129][  0]LogHMD: Starting GearVRController plugin
+[2017.08.29-08.48.38:164][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.29-08.48.38:187][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-08.48.38:189][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.29-08.48.38:201][  0]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.29-08.48.38:361][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-08.48.38:419][  1]LogRenderer: Reallocating scene render targets to support 960x420 NumSamples 1 (Frame:1).
+[2017.08.29-08.48.38:464][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/' took 0.32s
+[2017.08.29-08.48.40:514][  4]LogAssetRegistry: Asset discovery search completed in 19.6763 seconds
+[2017.08.29-08.48.40:520][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.29-08.48.40:520][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2017.08.29-08.49.59:479][298]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:68).
+[2017.08.29-08.50.20:025][788]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-08.50.20:180][788]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-08.50.20:233][788]Cmd: MAP LOAD FILE="../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/Test2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-08.50.20:233][788]LightingResults: New page: Lighting Build
+[2017.08.29-08.50.20:234][788]LoadErrors: New page: Loading map: Test2.umap
+[2017.08.29-08.50.20:235][788]MapCheck: New page: Map Check
+[2017.08.29-08.50.20:235][788]LightingResults: New page: Lighting Build
+[2017.08.29-08.50.20:283][788]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-08.50.20:387][788]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-08.50.20:498][788]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.9ms to complete.
+[2017.08.29-08.50.20:499][788]LogFileHelpers: Loading map 'Test2' took 0.266
+[2017.08.29-08.50.42:766][354]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-08.50.42:970][354]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-08.50.42:971][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-08.50.42:971][354]PIE: New page: PIE session: Test2 (30 Aug 2017 4:50:42 am)
+[2017.08.29-08.50.42:971][354]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-08.50.43:028][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057053s)
+[2017.08.29-08.50.43:029][354]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-08.50.43:030][354]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2017.08.29-08.50.43:030][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.058882s)
+[2017.08.29-08.50.43:090][354]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-08.50.43:129][354]LogInit: FAudioDevice initialized.
+[2017.08.29-08.50.43:203][354]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-08.50.43:210][354]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-18.50.43
+[2017.08.29-08.50.43:214][354]LogWorld: Bringing up level for play took: 0.009363
+[2017.08.29-08.50.43:328][354]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.08.29-08.50.43:330][354]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.579
+[2017.08.29-08.50.43:331][354]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-08.51.03:610][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-08.51.03:700][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-08.52.06:537][283]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-08.52.06:777][283]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 112 classes and 0 folders.
+[2017.08.29-08.52.08:164][283]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.29-08.52.08:827][284]LogSlate: Took 0.001170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.29-08.54.06:413][724]LogEditorTransaction: Undo Add Node
+[2017.08.29-08.54.06:675][724]LogSlate: Took 0.000423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-08.57.33:871][617]LogRenderer: Reallocating scene render targets to support 964x440 NumSamples 1 (Frame:1).
+[2017.08.29-08.59.32:397][891]LogEditorTransaction: Undo Add Node
+[2017.08.29-09.00.57:761][ 96]LogSavePackage: Save=224.45ms
+[2017.08.29-09.00.57:761][ 96]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test2_Auto1C58341AD4EF5EB6ED5E501A48EF4BF6E.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto1.umap'
+[2017.08.29-09.00.57:770][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto1.umap
+[2017.08.29-09.00.57:778][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.384
+[2017.08.29-09.00.57:778][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.384
+[2017.08.29-09.00.57:782][ 96]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2017.08.29-09.00.57:829][ 96]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2017.08.29-09.00.57:829][ 96]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2017.08.29-09.00.58:213][ 96]LogSavePackage: Save=363.08ms
+[2017.08.29-09.00.58:213][ 96]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter_Auto1DC7FE849485D3F1C5B3197BA42417C42.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2017.08.29-09.00.58:221][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset
+[2017.08.29-09.00.58:221][ 96]LogFileHelpers: Auto-saving content packages took 0.442
+[2017.08.29-09.02.24:797][867]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.02.27:103][880]LogSavePackage: Save=398.95ms
+[2017.08.29-09.02.27:104][880]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterC094B9994514DEF13D18A2B9384B648B.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.02.27:119][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.02.35:350][ 43]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.02.35:405][ 43]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.35:405][ 43]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.02.35:406][ 43]PIE: New page: PIE session: Test2 (30 Aug 2017 5:02:35 am)
+[2017.08.29-09.02.35:406][ 43]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.02.35:451][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044709s)
+[2017.08.29-09.02.35:452][ 43]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.02.35:453][ 43]LogPlayLevel: PIE: World Init took: (0.002050s)
+[2017.08.29-09.02.35:453][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.047235s)
+[2017.08.29-09.02.35:541][ 43]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.02.35:559][ 43]LogInit: FAudioDevice initialized.
+[2017.08.29-09.02.35:598][ 43]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.02.35:601][ 43]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-19.02.35
+[2017.08.29-09.02.35:601][ 43]LogWorld: Bringing up level for play took: 0.002906
+[2017.08.29-09.02.35:602][ 43]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.851
+[2017.08.29-09.02.35:603][ 43]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.43:508][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.43:648][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.49:242][363]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.02.52:157][379]LogSavePackage: Save=815.84ms
+[2017.08.29-09.02.52:157][379]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter1F86BE4740E8345F120D5AB3A9A9FF6D.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.02.52:178][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.02.54:359][428]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.02.54:431][428]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.54:431][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.02.54:431][428]PIE: New page: PIE session: Test2 (30 Aug 2017 5:02:54 am)
+[2017.08.29-09.02.54:431][428]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.02.54:478][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046701s)
+[2017.08.29-09.02.54:480][428]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.02.54:481][428]LogPlayLevel: PIE: World Init took: (0.002912s)
+[2017.08.29-09.02.54:482][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.050567s)
+[2017.08.29-09.02.54:591][428]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.02.54:614][428]LogInit: FAudioDevice initialized.
+[2017.08.29-09.02.54:654][428]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.02.54:658][428]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-19.02.54
+[2017.08.29-09.02.54:658][428]LogWorld: Bringing up level for play took: 0.003375
+[2017.08.29-09.02.54:659][428]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.092
+[2017.08.29-09.02.54:660][428]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.59:854][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.02.59:973][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.03.12:054][775]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.03.14:773][789]LogSavePackage: Save=544.87ms
+[2017.08.29-09.03.14:773][789]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterB3FFEC39474286663F3086AEF8DD84D1.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.03.14:786][789]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.03.17:882][852]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.03.17:955][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.03.17:955][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.03.17:955][852]PIE: New page: PIE session: Test2 (30 Aug 2017 5:03:17 am)
+[2017.08.29-09.03.17:955][852]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.03.17:995][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039334s)
+[2017.08.29-09.03.17:997][852]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.03.17:997][852]LogPlayLevel: PIE: World Init took: (0.002030s)
+[2017.08.29-09.03.17:998][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.042450s)
+[2017.08.29-09.03.18:100][852]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.03.18:120][852]LogInit: FAudioDevice initialized.
+[2017.08.29-09.03.18:163][852]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.03.18:167][852]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-19.03.18
+[2017.08.29-09.03.18:168][852]LogWorld: Bringing up level for play took: 0.004748
+[2017.08.29-09.03.18:169][852]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.582
+[2017.08.29-09.03.18:170][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.04.30:164][867]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.04.30:306][867]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.04.32:027][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.08.29-09.04.32:165][895]Cmd: SELECT NONE
+[2017.08.29-09.04.36:474][957]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.04.39:255][968]LogSavePackage: Save=645.99ms
+[2017.08.29-09.04.39:255][968]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter89B496334E8D0E11F3B47A8D92987081.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.04.39:269][968]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.04.40:996][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.08.29-09.04.41:973][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.04.42:055][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.04.42:055][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.04.42:055][ 24]PIE: New page: PIE session: Test2 (30 Aug 2017 5:04:42 am)
+[2017.08.29-09.04.42:055][ 24]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.04.42:097][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041844s)
+[2017.08.29-09.04.42:099][ 24]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.04.42:099][ 24]LogPlayLevel: PIE: World Init took: (0.001827s)
+[2017.08.29-09.04.42:099][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.044268s)
+[2017.08.29-09.04.42:236][ 24]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.04.42:270][ 24]LogInit: FAudioDevice initialized.
+[2017.08.29-09.04.42:315][ 24]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.04.42:324][ 24]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-19.04.42
+[2017.08.29-09.04.42:326][ 24]LogWorld: Bringing up level for play took: 0.009614
+[2017.08.29-09.04.42:328][ 24]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.423
+[2017.08.29-09.04.42:329][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.05.00:869][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.05.01:108][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.12.43:811][298]LogSavePackage: Save=258.81ms
+[2017.08.29-09.12.43:811][298]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test2_Auto261E768024E25A1E0B609E1AB49CB3F8F.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto2.umap'
+[2017.08.29-09.12.43:821][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto2.umap
+[2017.08.29-09.12.43:824][298]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.391
+[2017.08.29-09.12.43:824][298]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2017.08.29-09.12.43:828][298]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2017.08.29-09.12.43:873][298]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2017.08.29-09.12.43:873][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2017.08.29-09.12.44:272][298]LogSavePackage: Save=373.48ms
+[2017.08.29-09.12.44:272][298]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter_Auto2DDC46C874627D553AA30D4BEA3DB2195.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset'
+[2017.08.29-09.12.44:284][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset
+[2017.08.29-09.12.44:284][298]LogFileHelpers: Auto-saving content packages took 0.457
+[2017.08.29-09.16.46:609][316]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.16.49:062][328]LogSavePackage: Save=391.30ms
+[2017.08.29-09.16.49:062][328]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter74D5885C45B6B84CFC3750B0256F717E.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.16.49:087][328]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.16.51:689][384]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.16.51:740][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.16.51:740][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.16.51:740][384]PIE: New page: PIE session: Test2 (30 Aug 2017 5:16:51 am)
+[2017.08.29-09.16.51:740][384]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.16.51:777][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036596s)
+[2017.08.29-09.16.51:780][384]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.16.51:780][384]LogPlayLevel: PIE: World Init took: (0.003349s)
+[2017.08.29-09.16.51:781][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.040383s)
+[2017.08.29-09.16.51:840][384]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.16.51:855][384]LogInit: FAudioDevice initialized.
+[2017.08.29-09.16.51:895][384]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.16.51:898][384]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.16.51
+[2017.08.29-09.16.51:899][384]LogWorld: Bringing up level for play took: 0.003105
+[2017.08.29-09.16.51:900][384]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 1.149
+[2017.08.29-09.16.51:901][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.16.59:048][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.16.59:173][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.17.09:677][785]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.17.12:341][798]LogSavePackage: Save=441.50ms
+[2017.08.29-09.17.12:341][798]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterF7D396544AA5656E212604AFB9972763.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.17.12:353][798]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.17.42:709][419]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.17.45:400][432]LogSavePackage: Save=546.31ms
+[2017.08.29-09.17.45:400][432]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter043788C542D87980A44D6D8E071876BE.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.17.45:417][432]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.17.48:325][494]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.17.48:414][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.17.48:414][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.17.48:415][494]PIE: New page: PIE session: Test2 (30 Aug 2017 5:17:48 am)
+[2017.08.29-09.17.48:415][494]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.17.48:468][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053430s)
+[2017.08.29-09.17.48:470][494]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.17.48:470][494]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2017.08.29-09.17.48:470][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.055649s)
+[2017.08.29-09.17.48:596][494]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.17.48:633][494]LogInit: FAudioDevice initialized.
+[2017.08.29-09.17.48:677][494]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.17.48:683][494]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.17.48
+[2017.08.29-09.17.48:684][494]LogWorld: Bringing up level for play took: 0.005081
+[2017.08.29-09.17.48:686][494]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.066
+[2017.08.29-09.17.48:686][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.17.53:761][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.17.53:959][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.18.01:360][740]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.18.05:050][769]LogSavePackage: Save=579.01ms
+[2017.08.29-09.18.05:051][769]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterEC9529654755B22CEB6E679DAB095896.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.18.05:064][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.20.28:906][125]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.20.32:147][136]LogSavePackage: Save=766.03ms
+[2017.08.29-09.20.32:147][136]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter9D3CE4394E6AA9DE2376869E372FF03A.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.20.32:164][136]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.20.34:038][173]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.20.34:136][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.20.34:136][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.20.34:137][173]PIE: New page: PIE session: Test2 (30 Aug 2017 5:20:34 am)
+[2017.08.29-09.20.34:137][173]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.20.34:185][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048124s)
+[2017.08.29-09.20.34:186][173]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.20.34:187][173]LogPlayLevel: PIE: World Init took: (0.001793s)
+[2017.08.29-09.20.34:188][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.050505s)
+[2017.08.29-09.20.34:310][173]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.20.34:344][173]LogInit: FAudioDevice initialized.
+[2017.08.29-09.20.34:385][173]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.20.34:390][173]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.20.34
+[2017.08.29-09.20.34:391][173]LogWorld: Bringing up level for play took: 0.004912
+[2017.08.29-09.20.34:392][173]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.359
+[2017.08.29-09.20.34:393][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.20.38:843][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.20.39:077][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.20.45:875][373]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.20.48:294][383]LogSavePackage: Save=578.24ms
+[2017.08.29-09.20.48:294][383]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterB9F3ADD04EEA3582D6C5078EA7C077DF.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.20.48:309][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.20.52:132][449]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-09.20.53:085][460]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.08.29-09.20.59:745][550]LogSavePackage: Save=649.44ms
+[2017.08.29-09.20.59:745][550]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter10BC654B425E34C25E57C89A542734E6.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.20.59:759][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.21.05:213][635]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.21.08:383][645]LogSavePackage: Save=722.31ms
+[2017.08.29-09.21.08:383][645]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterC29A74AE4814E2C6BE9E9BAE7A457167.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.21.08:398][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.21.17:173][775]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.21.17:298][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.17:298][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.21.17:298][775]PIE: New page: PIE session: Test2 (30 Aug 2017 5:21:17 am)
+[2017.08.29-09.21.17:298][775]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.21.17:346][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047269s)
+[2017.08.29-09.21.17:348][775]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.21.17:348][775]LogPlayLevel: PIE: World Init took: (0.002174s)
+[2017.08.29-09.21.17:349][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.050071s)
+[2017.08.29-09.21.17:507][775]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.21.17:542][775]LogInit: FAudioDevice initialized.
+[2017.08.29-09.21.17:590][775]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.21.17:599][775]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.21.17
+[2017.08.29-09.21.17:600][775]LogWorld: Bringing up level for play took: 0.008292
+[2017.08.29-09.21.17:602][775]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.851
+[2017.08.29-09.21.17:603][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.24:791][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.24:990][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.26:272][996]Cmd: SELECT NONE
+[2017.08.29-09.21.29:181][ 66]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.21.29:299][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.29:299][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.21.29:300][ 66]PIE: New page: PIE session: Test2 (30 Aug 2017 5:21:29 am)
+[2017.08.29-09.21.29:300][ 66]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.21.29:341][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041545s)
+[2017.08.29-09.21.29:345][ 66]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.21.29:345][ 66]LogPlayLevel: PIE: World Init took: (0.004013s)
+[2017.08.29-09.21.29:346][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.046210s)
+[2017.08.29-09.21.29:497][ 66]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.21.29:531][ 66]LogInit: FAudioDevice initialized.
+[2017.08.29-09.21.29:584][ 66]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.21.29:593][ 66]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.21.29
+[2017.08.29-09.21.29:595][ 66]LogWorld: Bringing up level for play took: 0.009634
+[2017.08.29-09.21.29:598][ 66]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.847
+[2017.08.29-09.21.29:599][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.37:084][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.21.37:181][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.23.45:132][759]LogSavePackage: Save=391.35ms
+[2017.08.29-09.23.45:132][759]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test2_Auto3FD7FDF344E0A0030E5EC71B0C7835B92.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto3.umap'
+[2017.08.29-09.23.45:154][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto3.umap
+[2017.08.29-09.23.45:162][759]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.646
+[2017.08.29-09.23.45:162][759]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.646
+[2017.08.29-09.23.45:166][759]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2017.08.29-09.23.45:226][759]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2017.08.29-09.23.45:226][759]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2017.08.29-09.23.45:909][759]LogSavePackage: Save=646.92ms
+[2017.08.29-09.23.45:909][759]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter_Auto38E513A51421870E148120A90BD631CB8.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto3.uasset'
+[2017.08.29-09.23.45:916][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto3.uasset
+[2017.08.29-09.23.45:916][759]LogFileHelpers: Auto-saving content packages took 0.752
+[2017.08.29-09.27.55:334][ 60]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2017.08.29-09.27.55:334][ 60]LogSynthBenchmark:Display: ===============
+[2017.08.29-09.27.55:334][ 60]LogSynthBenchmark:Display: Main Processor:
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:          ... 0.067517 s/Run 'RayIntersect'
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:          ... 0.066406 s/Run 'Fractal'
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display: 
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   CPU Perf Index 0: 37.9 (weight 1.00)
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   CPU Perf Index 1: 43.1 (weight 1.50)
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:  
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display: Graphics:
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 620'
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   Device Id: 0x5916
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   Device Revision: 0x2
+[2017.08.29-09.27.55:468][ 60]LogSynthBenchmark:Display:   GPU Memory: 128/0/8138 MB
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:   GPU first test: 0.06s
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 0.614 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 0.534 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 0.469 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 1.413 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 0.106 s/GigaPix, Confidence=70% 'Bandwidth' (likely to be very inaccurate)
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 0.183 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.08.29-09.27.55:706][ 60]LogSynthBenchmark:Display:          ... 0.863 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.08.29-09.27.56:147][ 60]LogSynthBenchmark:Display:   GPU second test: 0.29s
+[2017.08.29-09.27.56:147][ 60]LogSynthBenchmark:Display:          ... 0.961 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.746 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.607 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 4.889 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.113 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.191 s/GigaVert, Confidence=70% 'VertThroughPut1' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.909 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be inaccurate)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.961 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.746 s/GigaPix, Confidence=100% 'TexHeavy'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.607 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 4.889 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.113 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.191 s/GigaVert, Confidence=70% 'VertThroughPut1'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... 0.909 s/GigaVert, Confidence=89% 'VertThroughPut2'
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display: 
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 0: 20.9 (weight 1.00)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 1: 10.0 (weight 0.10)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 2: 15.8 (weight 0.10)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 3: 19.2 (weight 3.00)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 4: 10.5 (weight 1.00)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 5: 12.4 (weight 0.00)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPU Perf Index 6: 51.4 (weight 0.00)
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   CPUIndex: 41.0
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:   GPUIndex: 17.6
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display: 
+[2017.08.29-09.27.56:148][ 60]LogSynthBenchmark:Display:          ... Total Time: 0.814671 sec
+[2017.08.29-09.27.57:162][ 60]LogContentStreaming: Texture pool size now 400 MB
+[2017.08.29-09.27.57:226][ 61]LogRenderer: Reallocating scene render targets to support 964x440 NumSamples 1 (Frame:24652).
+[2017.08.29-09.33.23:688][681]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.33.25:197][706]LogSavePackage: Save=298.76ms
+[2017.08.29-09.33.25:197][706]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter7180B72F42201FB3F79D7D8E317B53AB.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.33.25:220][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.33.26:941][815]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.33.26:980][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.33.26:980][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.33.26:980][815]PIE: New page: PIE session: Test2 (30 Aug 2017 5:33:26 am)
+[2017.08.29-09.33.26:981][815]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.33.27:006][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025334s)
+[2017.08.29-09.33.27:007][815]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.33.27:007][815]LogPlayLevel: PIE: World Init took: (0.001199s)
+[2017.08.29-09.33.27:008][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.027088s)
+[2017.08.29-09.33.27:055][815]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.33.27:069][815]LogInit: FAudioDevice initialized.
+[2017.08.29-09.33.27:104][815]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.33.27:106][815]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.33.27
+[2017.08.29-09.33.27:107][815]LogWorld: Bringing up level for play took: 0.002802
+[2017.08.29-09.33.27:108][815]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.357
+[2017.08.29-09.33.27:108][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.33.53:833][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.33.53:926][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.34.00:329][ 43]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.34.02:138][ 73]LogSavePackage: Save=466.91ms
+[2017.08.29-09.34.02:138][ 73]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterE5141B064206AA49CB9C86B254F8180C.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.34.02:150][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.34.47:840][156]LogEditorTransaction: Undo Edit Push Force Point ZOffset Factor
+[2017.08.29-09.34.47:864][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.CollisionCylinder) Component already registered.
+[2017.08.29-09.34.47:876][156]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.Arrow) Component already registered.
+[2017.08.29-09.35.17:217][214]LogEditorTransaction: Undo Edit Push Force Point ZOffset Factor
+[2017.08.29-09.35.17:230][214]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.CollisionCylinder) Component already registered.
+[2017.08.29-09.35.17:236][214]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.SideScrollerCharacter_C_1.Arrow) Component already registered.
+[2017.08.29-09.35.17:238][214]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2017.08.29-09.35.17:242][214]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.Arrow) Component already registered.
+[2017.08.29-09.35.24:158][529]LogEditorTransaction: Undo Edit Push Force Point ZOffset Factor
+[2017.08.29-09.35.24:168][529]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.CollisionCylinder) Component already registered.
+[2017.08.29-09.35.24:175][529]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.SideScrollerCharacter_C_1.Arrow) Component already registered.
+[2017.08.29-09.35.24:176][529]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2017.08.29-09.35.24:177][529]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.Arrow) Component already registered.
+[2017.08.29-09.35.26:529][620]LogEditorTransaction: Undo Edit Push Force Point ZOffset Factor
+[2017.08.29-09.35.26:545][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.CollisionCylinder) Component already registered.
+[2017.08.29-09.35.26:552][620]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.SideScrollerCharacter_C_1.Arrow) Component already registered.
+[2017.08.29-09.35.26:553][620]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_4:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2017.08.29-09.35.26:555][620]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.SideScrollerCharacter_78.Arrow) Component already registered.
+[2017.08.29-09.35.52:982][837]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.35.55:210][914]LogSavePackage: Save=304.01ms
+[2017.08.29-09.35.55:210][914]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter7483B6BC4D71ADED5E567CAA57855161.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.35.55:219][914]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.35.57:655][ 83]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.35.57:686][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.35.57:686][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.35.57:686][ 83]PIE: New page: PIE session: Test2 (30 Aug 2017 5:35:57 am)
+[2017.08.29-09.35.57:686][ 83]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.35.57:706][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020488s)
+[2017.08.29-09.35.57:708][ 83]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.35.57:709][ 83]LogPlayLevel: PIE: World Init took: (0.002248s)
+[2017.08.29-09.35.57:709][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.023353s)
+[2017.08.29-09.35.57:766][ 83]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.35.57:778][ 83]LogInit: FAudioDevice initialized.
+[2017.08.29-09.35.57:815][ 83]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.35.57:818][ 83]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.35.57
+[2017.08.29-09.35.57:819][ 83]LogWorld: Bringing up level for play took: 0.003077
+[2017.08.29-09.35.57:820][ 83]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 1.069
+[2017.08.29-09.35.57:820][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.36.11:963][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.36.12:035][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.36.33:382][614]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.37.59:505][526]LogSavePackage: Save=287.23ms
+[2017.08.29-09.37.59:505][526]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test2_Auto4F3B4A22149D0EA088A2A1E850E9BCE02.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto4.umap'
+[2017.08.29-09.37.59:516][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto4.umap
+[2017.08.29-09.37.59:520][526]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.458
+[2017.08.29-09.37.59:520][526]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.458
+[2017.08.29-09.37.59:525][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2017.08.29-09.37.59:567][526]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2017.08.29-09.37.59:567][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2017.08.29-09.38.00:055][526]LogSavePackage: Save=457.61ms
+[2017.08.29-09.38.00:055][526]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter_Auto4449674454FF579B5713E8B9C33E4C41A.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto4.uasset'
+[2017.08.29-09.38.00:062][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto4.uasset
+[2017.08.29-09.38.00:063][526]LogFileHelpers: Auto-saving content packages took 0.540
+[2017.08.29-09.38.29:580][129]LogSavePackage: Save=312.51ms
+[2017.08.29-09.38.29:580][129]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterAB7A4A7B444B26051EA0FE8B5308F6E0.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.38.29:596][129]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.38.43:040][179]LogSavePackage: Save=351.58ms
+[2017.08.29-09.38.43:040][179]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter78B31DB9439941C80182A0A0153CF531.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.38.43:051][179]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.38.59:382][491]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.39.00:859][522]LogSavePackage: Save=354.29ms
+[2017.08.29-09.39.00:859][522]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter597A02B94E079EDC04D8D0897406A506.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.39.00:863][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.45.04:992][194]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.45.05:032][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.45.05:032][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.45.05:032][194]PIE: New page: PIE session: Test2 (30 Aug 2017 5:45:05 am)
+[2017.08.29-09.45.05:032][194]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.45.05:054][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021431s)
+[2017.08.29-09.45.05:055][194]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.45.05:056][194]LogPlayLevel: PIE: World Init took: (0.001526s)
+[2017.08.29-09.45.05:056][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.023304s)
+[2017.08.29-09.45.05:099][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.45.05:112][194]LogInit: FAudioDevice initialized.
+[2017.08.29-09.45.05:145][194]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.45.05:150][194]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.45.05
+[2017.08.29-09.45.05:151][194]LogWorld: Bringing up level for play took: 0.004512
+[2017.08.29-09.45.05:152][194]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.4
+[2017.08.29-09.45.05:152][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.46.12:130][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.46.12:179][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.51.39:171][396]LogSavePackage: Save=355.20ms
+[2017.08.29-09.51.39:171][396]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterF6AC295D48BA81BED2DB42AD5CD24964.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.51.39:182][396]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.52.45:117][304]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-09.53.10:334][517]LogSavePackage: Save=477.85ms
+[2017.08.29-09.53.10:334][517]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterFE8135724DD38D52542A5A89437F9D21.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.53.10:346][517]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.53.11:258][554]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.53.13:138][585]LogSavePackage: Save=450.24ms
+[2017.08.29-09.53.13:138][585]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterC13044DA4FF7338C35194D9C478D877A.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.53.13:143][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.53.15:620][707]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.53.15:655][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.53.15:655][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.53.15:655][707]PIE: New page: PIE session: Test2 (30 Aug 2017 5:53:15 am)
+[2017.08.29-09.53.15:655][707]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.53.15:678][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022947s)
+[2017.08.29-09.53.15:679][707]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.53.15:679][707]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2017.08.29-09.53.15:680][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.024620s)
+[2017.08.29-09.53.15:750][707]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.53.15:771][707]LogInit: FAudioDevice initialized.
+[2017.08.29-09.53.15:812][707]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.53.15:815][707]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.53.15
+[2017.08.29-09.53.15:817][707]LogWorld: Bringing up level for play took: 0.004567
+[2017.08.29-09.53.15:818][707]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 1.067
+[2017.08.29-09.53.15:819][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.53.25:956][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.53.26:044][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.57.13:273][762]LogSavePackage: Save=522.49ms
+[2017.08.29-09.57.13:273][762]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter9EFC07C0426B209E149178881239E648.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.57.13:287][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.57.15:419][828]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.57.17:457][844]LogSavePackage: Save=605.07ms
+[2017.08.29-09.57.17:457][844]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterFD7C5B5A4725CCABC8523E85CF55279A.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.57.17:462][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.57.19:244][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.29-09.57.20:346][978]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.57.20:397][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.57.20:398][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.57.20:398][978]PIE: New page: PIE session: Test2 (30 Aug 2017 5:57:20 am)
+[2017.08.29-09.57.20:399][978]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.57.20:432][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033746s)
+[2017.08.29-09.57.20:434][978]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.57.20:434][978]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2017.08.29-09.57.20:434][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.035805s)
+[2017.08.29-09.57.20:523][978]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.57.20:550][978]LogInit: FAudioDevice initialized.
+[2017.08.29-09.57.20:592][978]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.57.20:598][978]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.57.20
+[2017.08.29-09.57.20:600][978]LogWorld: Bringing up level for play took: 0.006704
+[2017.08.29-09.57.20:601][978]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.15
+[2017.08.29-09.57.20:602][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.57.32:301][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.57.32:465][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.03:262][552]LogSavePackage: Save=608.00ms
+[2017.08.29-09.58.03:263][552]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter79B911CF4EF9360ED7176A81CB1600FC.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.58.03:276][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.58.04:048][572]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.58.06:276][589]LogSavePackage: Save=605.38ms
+[2017.08.29-09.58.06:276][589]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter41BDE7A8499D44C9D8E382904E4A0749.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.58.06:284][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.58.08:279][667]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.58.08:327][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.08:327][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.58.08:328][667]PIE: New page: PIE session: Test2 (30 Aug 2017 5:58:08 am)
+[2017.08.29-09.58.08:328][667]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.58.08:360][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031917s)
+[2017.08.29-09.58.08:361][667]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.58.08:361][667]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2017.08.29-09.58.08:362][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.033809s)
+[2017.08.29-09.58.08:453][667]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.58.08:479][667]LogInit: FAudioDevice initialized.
+[2017.08.29-09.58.08:519][667]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.58.08:524][667]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.58.08
+[2017.08.29-09.58.08:525][667]LogWorld: Bringing up level for play took: 0.005085
+[2017.08.29-09.58.08:527][667]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.224
+[2017.08.29-09.58.08:528][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.13:156][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.13:321][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.35:278][541]LogSavePackage: Save=522.82ms
+[2017.08.29-09.58.35:279][541]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterFDC6D3634CDEB631344A068EF58014CE.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.58.35:295][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.58.41:976][741]LogSavePackage: Save=637.58ms
+[2017.08.29-09.58.41:976][741]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter6DCD5BA94EAF83EC0762A19EF6118AB3.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.58.41:980][741]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter6DCD5BA94EAF83EC0762A19EF6118AB3.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset', retrying in .5s...
+[2017.08.29-09.58.42:481][741]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter6DCD5BA94EAF83EC0762A19EF6118AB3.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset', retrying in .5s...
+[2017.08.29-09.58.42:983][741]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter6DCD5BA94EAF83EC0762A19EF6118AB3.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset', retrying in .5s...
+[2017.08.29-09.58.43:484][741]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter6DCD5BA94EAF83EC0762A19EF6118AB3.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset', retrying in .5s...
+[2017.08.29-09.58.43:989][741]LogFileManager:Warning: MoveFile recovered during retry!
+[2017.08.29-09.58.44:003][741]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.58.44:656][764]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.58.46:705][781]LogSavePackage: Save=575.86ms
+[2017.08.29-09.58.46:705][781]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterDB8BE0C64F798C30E42CEA949268B1C2.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.58.46:710][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.58.48:637][866]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.58.48:689][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.48:689][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.58.48:690][866]PIE: New page: PIE session: Test2 (30 Aug 2017 5:58:48 am)
+[2017.08.29-09.58.48:690][866]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.58.48:716][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025938s)
+[2017.08.29-09.58.48:717][866]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.58.48:717][866]LogPlayLevel: PIE: World Init took: (0.001734s)
+[2017.08.29-09.58.48:718][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.028115s)
+[2017.08.29-09.58.48:807][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.58.48:828][866]LogInit: FAudioDevice initialized.
+[2017.08.29-09.58.48:870][866]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.58.48:874][866]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.58.48
+[2017.08.29-09.58.48:875][866]LogWorld: Bringing up level for play took: 0.003680
+[2017.08.29-09.58.48:876][866]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.125
+[2017.08.29-09.58.48:877][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.54:998][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.58.55:147][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.59.10:305][632]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-09.59.12:487][646]LogSavePackage: Save=649.56ms
+[2017.08.29-09.59.12:487][646]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterF4CD1A7C4D60BFBB58B93E8B16DF2245.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-09.59.12:499][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-09.59.14:076][713]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-09.59.14:129][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.59.14:130][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-09.59.14:130][713]PIE: New page: PIE session: Test2 (30 Aug 2017 5:59:14 am)
+[2017.08.29-09.59.14:130][713]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-09.59.14:160][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029965s)
+[2017.08.29-09.59.14:161][713]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-09.59.14:161][713]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2017.08.29-09.59.14:162][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.031678s)
+[2017.08.29-09.59.14:259][713]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-09.59.14:278][713]LogInit: FAudioDevice initialized.
+[2017.08.29-09.59.14:320][713]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-09.59.14:324][713]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 0) at 2017.08.29-19.59.14
+[2017.08.29-09.59.14:325][713]LogWorld: Bringing up level for play took: 0.004177
+[2017.08.29-09.59.14:326][713]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.425
+[2017.08.29-09.59.14:327][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.59.17:902][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.59.18:055][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-09.59.18:213][905]Cmd: SELECT NONE
+[2017.08.29-10.00.27:048][957]LogSavePackage: Save=346.09ms
+[2017.08.29-10.00.27:048][957]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test2_Auto5B522186641E9C300FF7ED995FC024563.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto5.umap'
+[2017.08.29-10.00.27:053][957]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto5.umap
+[2017.08.29-10.00.27:061][957]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.546
+[2017.08.29-10.00.27:061][957]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.546
+[2017.08.29-10.02.33:929][324]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.02.33:970][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.02.33:970][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-10.02.33:970][324]PIE: New page: PIE session: Test2 (30 Aug 2017 6:02:33 am)
+[2017.08.29-10.02.33:970][324]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.02.33:993][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023129s)
+[2017.08.29-10.02.33:995][324]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.02.33:995][324]LogPlayLevel: PIE: World Init took: (0.001656s)
+[2017.08.29-10.02.33:996][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.025452s)
+[2017.08.29-10.02.34:064][324]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.02.34:084][324]LogInit: FAudioDevice initialized.
+[2017.08.29-10.02.34:121][324]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.02.34:125][324]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.02.34
+[2017.08.29-10.02.34:126][324]LogWorld: Bringing up level for play took: 0.003556
+[2017.08.29-10.02.34:127][324]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.624
+[2017.08.29-10.02.34:128][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.02.51:773][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.02.51:884][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.02.52:293][ 94]Cmd: SELECT NONE
+[2017.08.29-10.02.59:187][423]LogSavePackage: Save=378.09ms
+[2017.08.29-10.02.59:187][423]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter07325EBA4E89BC9B5BE051874E91276D.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-10.02.59:199][423]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-10.02.59:964][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.29-10.03.02:170][556]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.03.02:200][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.03.02:201][556]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.29-10.03.02:201][556]LogPlayLevel: [PlayLevel] Compiling SideScrollerCharacter before play...
+[2017.08.29-10.03.02:587][556]LogPlayLevel: PlayLevel: Blueprint regeneration took 386 ms (1 blueprints)
+[2017.08.29-10.03.02:587][556]PIE: New page: PIE session: Test2 (30 Aug 2017 6:03:02 am)
+[2017.08.29-10.03.02:587][556]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.03.02:607][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019688s)
+[2017.08.29-10.03.02:608][556]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.03.02:608][556]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2017.08.29-10.03.02:609][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.021247s)
+[2017.08.29-10.03.02:664][556]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.03.02:678][556]LogInit: FAudioDevice initialized.
+[2017.08.29-10.03.02:712][556]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.03.02:717][556]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.03.02
+[2017.08.29-10.03.02:717][556]LogWorld: Bringing up level for play took: 0.004971
+[2017.08.29-10.03.02:718][556]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.033
+[2017.08.29-10.03.02:719][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.03.17:327][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.03.17:444][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.03.17:735][174]Cmd: SELECT NONE
+[2017.08.29-10.03.28:303][592]LogRenderer: Reallocating scene render targets to support 964x540 NumSamples 1 (Frame:1).
+[2017.08.29-10.04.13:962][992]BlueprintLog: New page: Compile Ladder
+[2017.08.29-10.04.14:967][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/Ladder" FILE="../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/Ladder.uasset" SILENT=true
+[2017.08.29-10.04.15:083][ 11]LogSavePackage: Save=72.31ms
+[2017.08.29-10.04.15:083][ 11]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/LadderF6942A7E45AB9BD0715DD18208C711AF.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/Ladder.uasset'
+[2017.08.29-10.04.15:097][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/Ladder.uasset
+[2017.08.29-10.04.22:100][266]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.04.22:147][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.04.22:147][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-10.04.22:147][266]PIE: New page: PIE session: Test2 (30 Aug 2017 6:04:22 am)
+[2017.08.29-10.04.22:147][266]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.04.22:177][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029467s)
+[2017.08.29-10.04.22:178][266]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.04.22:179][266]LogPlayLevel: PIE: World Init took: (0.001753s)
+[2017.08.29-10.04.22:179][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.031670s)
+[2017.08.29-10.04.22:265][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.04.22:284][266]LogInit: FAudioDevice initialized.
+[2017.08.29-10.04.22:325][266]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.04.22:329][266]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.04.22
+[2017.08.29-10.04.22:329][266]LogWorld: Bringing up level for play took: 0.003874
+[2017.08.29-10.04.22:330][266]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.421
+[2017.08.29-10.04.22:331][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.04.58:486][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.04.58:600][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.05.03:436][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.29-10.05.24:534][116]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-10.05.26:250][131]LogSavePackage: Save=495.48ms
+[2017.08.29-10.05.26:250][131]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter188CB9E54F7696E646A19C882AC489AA.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-10.05.26:262][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-10.05.27:630][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.08.29-10.05.28:877][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.29-10.05.29:615][293]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.05.29:665][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.05.29:665][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-10.05.29:665][293]PIE: New page: PIE session: Test2 (30 Aug 2017 6:05:29 am)
+[2017.08.29-10.05.29:666][293]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.05.29:688][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022965s)
+[2017.08.29-10.05.29:690][293]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.05.29:691][293]LogPlayLevel: PIE: World Init took: (0.002302s)
+[2017.08.29-10.05.29:692][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.026364s)
+[2017.08.29-10.05.29:765][293]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.05.29:784][293]LogInit: FAudioDevice initialized.
+[2017.08.29-10.05.29:827][293]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.05.29:831][293]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.05.29
+[2017.08.29-10.05.29:832][293]LogWorld: Bringing up level for play took: 0.003878
+[2017.08.29-10.05.29:833][293]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 1.081
+[2017.08.29-10.05.29:834][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.06.44:421][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.06.44:507][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.09.51:595][155]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-10.09.53:147][172]LogSavePackage: Save=462.58ms
+[2017.08.29-10.09.53:147][172]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacter76049E044F300630AA2DE190A350E926.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-10.09.53:166][172]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-10.09.55:485][278]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.09.55:537][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.09.55:537][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-10.09.55:537][278]PIE: New page: PIE session: Test2 (30 Aug 2017 6:09:55 am)
+[2017.08.29-10.09.55:537][278]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.09.55:567][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029834s)
+[2017.08.29-10.09.55:568][278]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.09.55:569][278]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2017.08.29-10.09.55:569][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.031553s)
+[2017.08.29-10.09.55:642][278]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.09.55:661][278]LogInit: FAudioDevice initialized.
+[2017.08.29-10.09.55:696][278]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.09.55:700][278]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.09.55
+[2017.08.29-10.09.55:700][278]LogWorld: Bringing up level for play took: 0.003065
+[2017.08.29-10.09.55:701][278]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 0.95
+[2017.08.29-10.09.55:702][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.10.18:824][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.10.18:983][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.11.34:011][243]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.08.29-10.11.34:775][258]LogEditorTransaction: Undo Add Node
+[2017.08.29-10.11.35:222][267]LogEditorTransaction: Undo Change Vector Pin Value
+[2017.08.29-10.11.35:756][280]LogEditorTransaction: Undo Add Node
+[2017.08.29-10.11.36:271][292]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-10.11.36:951][309]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-10.11.37:467][321]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-10.11.38:016][334]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-10.11.38:585][348]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-10.11.41:161][448]LogEditorTransaction: Undo Delete current selection
+[2017.08.29-10.11.42:803][487]LogSavePackage: Save=328.46ms
+[2017.08.29-10.11.42:803][487]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterA7FD20B44D63B82810327BAC8BAC5A8A.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-10.11.42:816][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-10.11.44:255][542]BlueprintLog: New page: Compile SideScrollerCharacter
+[2017.08.29-10.11.45:750][561]LogSavePackage: Save=396.62ms
+[2017.08.29-10.11.45:750][561]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/SideScrollerCharacterE809790B497663AF3CD105BFD1020B97.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2017.08.29-10.11.45:771][561]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2017.08.29-10.11.48:093][673]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.11.48:126][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.11.48:127][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-10.11.48:127][673]PIE: New page: PIE session: Test2 (30 Aug 2017 6:11:48 am)
+[2017.08.29-10.11.48:127][673]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.11.48:148][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021052s)
+[2017.08.29-10.11.48:149][673]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.11.48:149][673]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2017.08.29-10.11.48:149][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.022448s)
+[2017.08.29-10.11.48:207][673]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.11.48:221][673]LogInit: FAudioDevice initialized.
+[2017.08.29-10.11.48:260][673]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.11.48:264][673]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.11.48
+[2017.08.29-10.11.48:265][673]LogWorld: Bringing up level for play took: 0.003041
+[2017.08.29-10.11.48:266][673]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 -0.485
+[2017.08.29-10.11.48:266][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.11.56:038][123]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.11.56:142][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.11.59:654][319]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.29-10.11.59:689][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.11.59:689][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-10.11.59:690][319]PIE: New page: PIE session: Test2 (30 Aug 2017 6:11:59 am)
+[2017.08.29-10.11.59:690][319]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Test2
+[2017.08.29-10.11.59:710][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019802s)
+[2017.08.29-10.11.59:711][319]LogAIModule: Creating AISystem for world Test2
+[2017.08.29-10.11.59:711][319]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2017.08.29-10.11.59:711][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Test2.Test2 to /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 (0.021444s)
+[2017.08.29-10.11.59:779][319]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.29-10.11.59:793][319]LogInit: FAudioDevice initialized.
+[2017.08.29-10.11.59:833][319]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2017.08.29-10.11.59:837][319]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Test2.Test2 up for play (max tick rate 60) at 2017.08.29-20.11.59
+[2017.08.29-10.11.59:837][319]LogWorld: Bringing up level for play took: 0.003944
+[2017.08.29-10.11.59:839][319]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Test2 1.087
+[2017.08.29-10.11.59:839][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.13.15:999][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.29-10.13.16:107][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2' with GeneratedClass '/Game/SideScrollerBP/Maps/Test2.Test2_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Test2.Test2:PersistentLevel.Test2'
+[2017.08.30-01.15.33:338][896]LogHttp:Warning: 00000236A1AEA080: request failed, libcurl error: 0 (No error)
+[2017.08.30-01.15.33:338][896]LogHttp:Warning: 00000236A1AEA080: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2364647bfe8 [can pipeline])
+[2017.08.30-01.15.33:338][896]LogHttp:Warning: 00000236A1AEA080: libcurl info message cache 1 (Re-using existing connection! (#32) with host datarouter.ol.epicgames.com)
+[2017.08.30-01.15.33:338][896]LogHttp:Warning: 00000236A1AEA080: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.134.130) port 443 (#32))
+[2017.08.30-01.15.33:338][896]LogHttp:Warning: 00000236A1AEA080: libcurl info message cache 3 (Closing connection 32)
+[2017.08.30-01.15.33:338][896]LogHttp:Warning: 00000236A1AEA080: libcurl info message cache 4 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.08.30-01.15.36:153][896]LogSavePackage: Save=366.88ms
+[2017.08.30-01.15.36:153][896]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test2_Auto68E6423E1485F8CD4EEAE8597684D8B10.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto6.umap'
+[2017.08.30-01.15.36:155][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto6.umap
+[2017.08.30-01.15.36:173][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.494
+[2017.08.30-01.15.36:173][896]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.494
+[2017.08.30-01.15.36:944][898]LogHttp:Warning: 00000236D082D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.30-01.15.36:944][898]LogHttp:Warning: 00000236D082D780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.30-01.15.36:945][898]LogHttp:Warning: 00000236D082D780: libcurl info message cache 1 (Closing connection 33)
+[2017.08.30-01.15.48:299][924]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:24798).
+[2017.08.30-01.16.43:246][ 66]LogSavePackage: Save=269.36ms
+[2017.08.30-01.16.43:246][ 66]LogSavePackage: Moving '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Test263565B7D436FB3B2AA52869976F41194.tmp' to '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/Test2.umap'
+[2017.08.30-01.16.43:257][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/SideScrollerBP/Maps/Test2.umap
+[2017.08.30-01.16.45:112][167]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.30-01.16.45:119][167]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.30-01.16.45:720][168]Cmd: QUIT_EDITOR
+[2017.08.30-01.16.46:466][168]LogExit: Preparing to exit.
+[2017.08.30-01.16.47:468][168]LogDirectoryWatcher: A directory notification for 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/' was aborted.
+[2017.08.30-01.16.47:699][168]LogExit: Editor shut down
+[2017.08.30-01.16.47:755][168]LogExit: Transaction tracking system shut down
+[2017.08.30-01.16.48:205][168]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.30-01.16.48:206][168]LogExit: Object subsystem successfully closed.
+[2017.08.30-01.16.48:288][168]LogD3D11RHI: Shutdown
+[2017.08.30-01.16.48:288][168]LogD3D11RHI: CleanupD3DDevice
+[2017.08.30-01.16.48:614][168]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.30-01.16.48:658][168]LogModuleManager: Shutting down and abandoning module SynthBenchmark (532)
+[2017.08.30-01.16.48:658][168]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.08.30-01.16.48:658][168]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.08.30-01.16.48:659][168]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.08.30-01.16.48:659][168]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.30-01.16.48:659][168]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.30-01.16.48:660][168]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.30-01.16.48:660][168]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.30-01.16.48:661][168]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.30-01.16.48:668][168]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.30-01.16.48:668][168]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.30-01.16.48:668][168]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.30-01.16.48:668][168]LogDirectoryWatcher: A directory notification for 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/Collections/' was aborted.
+[2017.08.30-01.16.48:668][168]LogDirectoryWatcher: A directory notification for 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/Developers/Jej/Collections/' was aborted.
+[2017.08.30-01.16.48:668][168]LogDirectoryWatcher: A directory notification for 'C:/Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Collections/' was aborted.
+[2017.08.30-01.16.48:668][168]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.30-01.16.48:669][168]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.30-01.16.48:670][168]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.30-01.16.48:670][168]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.30-01.16.48:670][168]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.30-01.16.48:670][168]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.30-01.16.48:672][168]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.30-01.16.48:673][168]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.30-01.16.48:674][168]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.30-01.16.48:674][168]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.30-01.16.48:674][168]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.30-01.16.48:674][168]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.30-01.16.48:674][168]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.30-01.16.48:675][168]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.30-01.16.48:677][168]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.30-01.16.48:678][168]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.30-01.16.48:679][168]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.30-01.16.48:679][168]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.30-01.16.48:680][168]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.30-01.16.48:680][168]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.30-01.16.48:680][168]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.30-01.16.49:489][168]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.30-01.16.49:489][168]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.30-01.16.49:489][168]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.30-01.16.49:489][168]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.30-01.16.49:490][168]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.30-01.16.49:490][168]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.30-01.16.49:490][168]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.30-01.16.49:490][168]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.30-01.16.49:491][168]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.30-01.16.49:491][168]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.30-01.16.49:491][168]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.30-01.16.49:491][168]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.30-01.16.49:491][168]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.30-01.16.49:492][168]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.30-01.16.49:492][168]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.30-01.16.49:492][168]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.30-01.16.49:492][168]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.30-01.16.49:492][168]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.30-01.16.49:492][168]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.30-01.16.49:499][168]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.30-01.16.49:499][168]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.30-01.16.49:500][168]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.30-01.16.49:501][168]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.30-01.16.49:501][168]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.30-01.16.49:555][168]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.30-01.16.49:555][168]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.30-01.16.49:556][168]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.30-01.16.49:557][168]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.30-01.16.49:557][168]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.30-01.16.49:557][168]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.30-01.16.49:558][168]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.30-01.16.49:560][168]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.30-01.16.49:560][168]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.30-01.16.49:561][168]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.30-01.16.49:570][168]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.30-01.16.49:570][168]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.30-01.16.49:571][168]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.30-01.16.49:571][168]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.30-01.16.49:572][168]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.30-01.16.49:572][168]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.30-01.16.49:572][168]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.30-01.16.49:575][168]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.30-01.16.49:579][168]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.30-01.16.49:579][168]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.30-01.16.49:579][168]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.30-01.16.49:587][168]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.30-01.16.49:607][168]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.30-01.16.49:608][168]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.30-01.16.49:608][168]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.30-01.16.49:608][168]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.30-01.16.49:609][168]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.30-01.16.49:614][168]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.30-01.16.49:615][168]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.30-01.16.49:616][168]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.30-01.16.49:616][168]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.30-01.16.49:616][168]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.30-01.16.49:616][168]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.30-01.16.49:616][168]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.30-01.16.49:617][168]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.30-01.16.49:617][168]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.30-01.16.49:617][168]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.30-01.16.49:617][168]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.30-01.16.49:617][168]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.30-01.16.49:617][168]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.30-01.16.49:618][168]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.30-01.16.49:618][168]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.30-01.16.49:619][168]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.30-01.16.49:620][168]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.30-01.16.49:620][168]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.30-01.16.49:621][168]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.30-01.16.49:621][168]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.30-01.16.49:621][168]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.30-01.16.49:621][168]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.30-01.16.49:621][168]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.30-01.16.49:621][168]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.30-01.16.49:721][168]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.30-01.16.49:826][168]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.30-01.16.49:833][168]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.30-01.16.49:834][168]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.30-01.16.49:834][168]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.30-01.16.49:834][168]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.30-01.16.49:834][168]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.30-01.16.49:838][168]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.30-01.16.49:838][168]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.30-01.16.49:838][168]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.30-01.16.49:838][168]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.30-01.16.49:839][168]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.30-01.16.49:840][168]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.30-01.16.49:840][168]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.30-01.16.49:840][168]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.30-01.16.49:841][168]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.30-01.16.49:841][168]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.30-01.16.49:841][168]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.30-01.16.49:841][168]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.30-01.16.49:846][168]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.30-01.16.49:846][168]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.30-01.16.49:848][168]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.30-01.16.49:848][168]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.30-01.16.49:850][168]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.30-01.16.49:851][168]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.30-01.16.49:852][168]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.30-01.16.49:852][168]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.30-01.16.49:852][168]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.30-01.16.49:854][168]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.30-01.16.49:854][168]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.30-01.16.49:858][168]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.30-01.16.49:858][168]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.30-01.16.49:858][168]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.30-01.16.49:858][168]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.30-01.16.49:858][168]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.30-01.16.49:858][168]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.30-01.16.50:088][168]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.30-01.16.50:088][168]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Content/' was aborted.
+[2017.08.30-01.16.50:088][168]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.30-01.16.50:088][168]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.30-01.16.50:097][168]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.30-01.16.50:103][168]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.30-01.16.50:103][168]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.30-01.16.50:103][168]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.30-01.16.50:103][168]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.30-01.16.50:104][168]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.30-01.16.50:105][168]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.30-01.16.50:105][168]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.30-01.16.50:105][168]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.30-01.16.50:207][168]LogDerivedDataCache: Shutdown
+[2017.08.30-01.16.50:209][168]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.30-01.16.50:210][168]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.30-01.16.50:212][168]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.30-01.16.50:214][168]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.30-01.16.50:214][168]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.30-01.16.50:215][168]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.30-01.16.50:215][168]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.30-01.16.50:215][168]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.30-01.16.50:215][168]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.30-01.16.50:216][168]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.30-01.16.50:217][168]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.30-01.16.50:218][168]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.30-01.16.50:219][168]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.30-01.16.50:219][168]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.30-01.16.50:220][168]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.30-01.16.50:221][168]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.30-01.16.50:221][168]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.30-01.16.50:221][168]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAE9ADCA5-4498-D69F-E9FE-84A8630F0EAB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=8aaeae1547b5eeaa94fcecb904cf208b%7C977bc9a9b8d642d8bb994a54128c3693%7C21f2b3d6-4864-4196-be75-5b6ce2156b30&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.30-01.16.50:221][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.50:723][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.51:224][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.51:724][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.52:225][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.52:726][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.53:226][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.53:727][168]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.08.30-01.16.54:490][168]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.30-01.16.54:493][168]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.30-01.16.54:509][168]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.30-01.16.54:510][168]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.30-01.16.54:511][168]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.30-01.16.54:566][168]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.30-01.16.54:572][168]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.30-01.16.54:573][168]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.30-01.16.54:573][168]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.30-01.16.54:613][168]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.30-01.16.54:645][168]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.30-01.16.54:645][168]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.30-01.16.54:646][168]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.30-01.16.54:646][168]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.30-01.16.54:646][168]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.30-01.16.54:646][168]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.30-01.16.54:653][168]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.30-01.16.54:657][168]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.30-01.16.54:658][168]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.30-01.16.54:663][168]LogExit: Exiting.
+[2017.08.30-01.16.55:765][168]Log file closed, 08/30/17 11:16:55
