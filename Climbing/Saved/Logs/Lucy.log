@@ -504,3 +504,4 @@ LogInit: Object subsystem initialized
 [2017.09.05-09.53.10:407][752]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jej/Google Drive/Unreal/Lucy/Lucy/Climbing/Saved/Autosaves/Game/SideScrollerBP/Maps/Test2_Auto2.umap
 [2017.09.05-09.53.10:412][752]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Test2' took 0.339
 [2017.09.05-09.53.10:412][752]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.339
+[2017.09.05-10.23.43:384][105]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
