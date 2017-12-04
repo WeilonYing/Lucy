@@ -25,3 +25,4 @@ After your changes have been merged., you can continue making changes on the mas
 * Object grabbing - Press E to grab a movable object. Press E to release it again.
 * Generator - Go near the button to activate the elevator
 * AI - A character will now follow you (still quite dodgy)
+* Simple AI - A wolf/character rushes in one direction when triggered
